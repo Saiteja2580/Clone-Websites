@@ -320,6 +320,7 @@ li {
 .faq .ques {
   background-color: rgb(35, 35, 35);
 }
+
 .faq .ques .question {
   border-bottom: 2px solid black;
   padding: 25px;
@@ -327,6 +328,10 @@ li {
   justify-content: space-between;
   position: relative;
   cursor: default;
+  transition: background-color 0.5s;
+}
+.faq .question:hover {
+  background-color: rgb(72, 70, 70);
 }
 .faq .ques .question .fa-solid {
   font-size: 25px;
