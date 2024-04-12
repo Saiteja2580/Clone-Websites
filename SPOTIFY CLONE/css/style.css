@@ -165,6 +165,15 @@
   display: grid;
   grid-template-columns: 100%;
 }
+.col2-content::-webkit-scrollbar{
+  width: 10px;
+}
+.col2-content::-webkit-scrollbar-track{
+  background-color: black;
+}
+.col2-content::-webkit-scrollbar-thumb{
+  background-color: rgb(39, 39, 39);
+}
 .col2-content1 {
   display: flex;
   justify-content: space-between;
